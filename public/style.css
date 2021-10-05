@@ -1,0 +1,72 @@
+body{
+    background-color: #d9f5ec;
+}
+.outer{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #4c4c4c;}
+form{
+    margin-top: 2rem;
+}
+.inner{
+    margin-top: 2rem;
+    display: inherit;
+    justify-content: center;
+}
+.inpt{
+    border-radius: 15px;
+    outline:none;
+    background-color: #d9f5ec;
+}
+.add-btn{
+    color: #070606;
+    cursor: pointer;
+    font-weight:bolder;
+    outline: none;
+    border-radius: 15px;
+    background-color: #2cda83;
+}
+.add-btn:hover{
+    background-color: #92d492;
+}
+.inner li{
+    list-style: none;
+    padding: 5px;
+    border: 2px solid #d9f5ec;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: #d9f5ec;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox{
+    margin-right: 10px;
+    border-radius: 15px;
+    height: 15px;
+    width: 15px;
+    background: transparent;
+    border: 2px solid #10663b;
+}
+.bottom{
+    display: inherit;
+    justify-content: center;
+    align-self: center;
+}
+.btnHide{
+    margin-top: 2rem;
+    background-color:#ff0000;
+    color: #dddddd;
+    border-radius: 5px;
+    box-shadow:2px 4px 2px rgb(105, 105, 105);
+    font-weight: bolder;
+    border: 2px solid transparent;
+}
+.btnHide:hover{
+    background-color: #ce0000;
+}
